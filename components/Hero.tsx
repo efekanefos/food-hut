@@ -12,7 +12,11 @@ const Hero = () => {
           <p>People Trust Us</p>
         </div>
         <h1 className="text-[58px] max-xl:text-[50px] max-lg:text-[40px] font-bold leading-snug max-w-[530px]">
-          We're <span className="text-themeRed">Serious</span> For <span className="text-themeRed">Food</span> & <span className="text-themeYellow">Delivery</span>.
+          We're <span className="text-themeRed">Serious</span> For <span className="text-themeRed">Food</span> &{" "}
+          <span className="text-themeYellow relative">
+            Delivery.
+            <Image className="absolute bottom-0 right-0" src="/hero_title_decore.png" width={263} height={8} alt="Delivery" />
+          </span>
         </h1>
 
         <p className="text-[24px] max-xl:text-[20px] max-lg:text-[18px]">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
