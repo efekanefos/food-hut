@@ -1,9 +1,11 @@
-import Hero from "@/components/Hero"
+import Hero from "@/components/Hero";
+import SpecialOffers from "@/components/SpecialOffers";
 
 export default function Home() {
   return (
     <main>
-      <Hero/>
+      <Hero />
+      <SpecialOffers />
     </main>
   );
 }
