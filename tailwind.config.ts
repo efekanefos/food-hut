@@ -12,6 +12,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "mealCard-linear-gradient": "linear-gradient(rgba(255,255,255,0) 20%, rgba(245, 71, 72, 0.5))"
       },
     },
     colors: {

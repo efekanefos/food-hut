@@ -42,4 +42,8 @@ body {
     max-width: 1300px;
     margin: 0 auto;
   }
+  .mealCardStars img:nth-child(2),
+  .mealCardStars img:nth-child(3) {
+    margin-left: -1rem;
+  }
 }
