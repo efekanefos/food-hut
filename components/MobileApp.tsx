@@ -4,8 +4,8 @@ import Image from "next/image";
 const MobileApp = () => {
   return (
     <div className="relative">
-      <div className="yellowGradient poppins">
-        <div className="container flex items-center justify-between">
+      <div className="yellowGradient poppins px-3">
+        <div className="container flex items-center justify-between max-lg:flex-col max-lg:my-5">
           <div className="w-full">
             <h2 className="text-[48px] font-bold text-left mb-5 leading-tight">
               It's Now <span className="text-themeRed">More Easy</span> to <span className="text-themeYellow">Order</span> by Our Mobile
@@ -19,11 +19,13 @@ const MobileApp = () => {
           </div>
 
           <div className="w-full ">
-            <Image className="ml-auto" src="/mobile_app_cheff.png" width={476} height={476} alt="Mobile App" />
+            <Image className="ml-auto max-lg:mx-auto" src="/mobile_app_cheff.png" width={476} height={476} alt="Mobile App" />
           </div>
         </div>
       </div>
+      {/* 
       <Image className="absolute right-[15rem] bottom-[-50px] z-10" src="/mobile_app_cheff_green_decore.png" width={271} height={179} alt="Green Decore" />
+      */}
     </div>
   );
 };
